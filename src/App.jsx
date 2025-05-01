@@ -9,7 +9,7 @@ import MyBookings from './Pages/MyBookings'
 import HotelReg from './components/HotelReg'
 import Layout from './Pages/HotelOwner/Layout'
 import Dashboard from './Pages/HotelOwner/Dashboard'
-import Allrooms from './Pages/Allrooms'
+import AddRoom from './Pages/HotelOwner/AddRoom'
 import ListRoom from './Pages/HotelOwner/ListRoom'
 
 const App = () => {
