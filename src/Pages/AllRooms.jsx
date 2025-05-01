@@ -30,7 +30,7 @@ const RadioButton = ({ lable, selected = false, onChange = () => {} }) => {
   );
 };
 
-const Allrooms = () => {
+const AllRooms = () => {
   const navigate = useNavigate();
   const [openFilters, setOpenFilters] = useState(false);
 
@@ -146,4 +146,4 @@ const Allrooms = () => {
   );
 };
 
-export default Allrooms;
+export default AllRooms;

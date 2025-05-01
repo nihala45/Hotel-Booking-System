@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Title from "../../components/Title";
 import { assets } from "../../assets/assets";
 
-const AllRooms = () => {
+const AddRooms = () => {
   const [images, setImages] = useState({
     1: null,
     2: null,
@@ -136,4 +136,4 @@ const AllRooms = () => {
   );
 };
 
-export default AllRooms;
+export default AddRooms;
