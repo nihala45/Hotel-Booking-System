@@ -10,7 +10,7 @@ import Layout from './Pages/HotelOwner/Layout'
 import Dashboard from './Pages/HotelOwner/Dashboard'
 import AddRooms from './Pages/HotelOwner/AddRoom'
 import ListRoom from './Pages/HotelOwner/ListRoom'
-import AllRooms from './Pages/Allrooms'
+import AllRooms from './Pages/AllRooms'
 
 const App = () => {
   const isOwnerPath = useLocation().pathname.includes("owner")
